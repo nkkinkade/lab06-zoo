@@ -6,9 +6,6 @@ namespace BuildAZoo
 {
     public abstract class FarmAnimal : Animal
     {
-        // Inherited Properties
-        public override int Legs => 4;
-
         // FarmAnimal Properties 
 
         public virtual string Temperament { get; } = "calm";
@@ -18,11 +15,6 @@ namespace BuildAZoo
         public override string Movement()
         {
             return "walk";
-        }
-
-        public override string Eat()
-        {
-            return "dog food";
         }
     }
 }
