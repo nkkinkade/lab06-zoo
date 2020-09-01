@@ -1,10 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using Xunit;
+
 
 namespace BuildAZoo
 {
-    class Animal
+    public abstract class Animal
     {
+        //public abstract string Eat { get; }
+
+        //public abstract string Sound { get; }
+
+        public abstract bool HasFur { get; }
+        public abstract int NumberOfLegs { get; }
+        public string Size { get; protected set; }
+
+
     }
 }
