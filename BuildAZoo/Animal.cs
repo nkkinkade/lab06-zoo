@@ -6,14 +6,19 @@ namespace BuildAZoo
 {
     public abstract class Animal
     {
-        //public abstract string Eat { get; }
+        // Properties 
+        public virtual int Legs { get; } = 2;
+        public abstract string Color { get; }
 
-        //public abstract string Sound { get; }
+        // Methods
+        public abstract string Eat();
 
-        public abstract bool HasFur { get; }
-        public abstract int NumberOfLegs { get; }
-        public string Size { get; protected set; }
+        public abstract string Movement();
 
+        public virtual string Sound()
+        {
+            return "grunt";
+        }
 
     }
 }
