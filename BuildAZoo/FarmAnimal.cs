@@ -16,10 +16,5 @@ namespace BuildAZoo
         {
             return "walk";
         }
-
-        public override string Eat()
-        {
-            return "dog food";
-        }
     }
 }

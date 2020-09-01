@@ -14,10 +14,6 @@ namespace BuildAZoo
         {
             get { return true; }
         }
-        public override string Movement()
-        {
-            return "walk";
-        }
 
         public override string Sound()
         {
