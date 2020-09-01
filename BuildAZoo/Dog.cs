@@ -9,16 +9,19 @@ namespace BuildAZoo
         // Inherited Properties
         public override int Legs => 4;
 
-        // Dog Properties 
-        public abstract string FurType { get; }
-
-        public virtual string Temperament { get; } = "calm";
-
         // Inherited Methods
-
+        public override bool HasFur
+        {
+            get { return true; }
+        }
         public override string Movement()
         {
-            return "walk";
+            return "walk/run";
+        }
+
+        public override string Sound()
+        {
+            return "woof";
         }
 
         public override string Eat()

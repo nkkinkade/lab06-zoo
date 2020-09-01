@@ -10,7 +10,6 @@ namespace BuildAZoo
         public override int Legs => 4;
 
         // FarmAnimal Properties 
-        public abstract bool HasFur { get; }
 
         public virtual string Temperament { get; } = "calm";
 

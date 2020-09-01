@@ -4,15 +4,29 @@ using System.Text;
 
 namespace BuildAZoo
 {
-    public class Cow
+    public abstract class Cow : FarmAnimal
     {
-        public abstract class Cow()
+        // Inherited Properties
+        public override int Legs => 4;
+
+        // Inherited Methods
+        public override bool HasFur
         {
-          // Properties
-        public abstract int NumberOfLegs = 2;
-        public string Size = "Large"
-        public HasFur = true;
-        // public virtual bool Skin { get { return true;
+            get { return true; }
+        }
+        public override string Movement()
+        {
+            return "walk";
+        }
+
+        public override string Sound()
+        {
+            return "moo";
+        }
+
+        public override string Eat()
+        {
+            return "hay";
+        }
     }
-}
 }

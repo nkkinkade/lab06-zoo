@@ -8,7 +8,7 @@ namespace BuildAZoo
     {
         // Properties 
         public virtual int Legs { get; } = 2;
-        public abstract string Color { get; }
+        public abstract bool HasFur { get; }
 
         // Methods
         public abstract string Eat();
@@ -19,6 +19,5 @@ namespace BuildAZoo
         {
             return "grunt";
         }
-
     }
 }
