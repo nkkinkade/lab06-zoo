@@ -20,5 +20,11 @@ namespace BuildAZoo
         {
             return "ooo ooo eee eee";
         }
+
+        // Monkey method
+        public string Tail()
+        {
+            return "I have a long tail, but some of my cousins have short tails.";
+        }
     }
 }

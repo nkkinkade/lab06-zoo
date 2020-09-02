@@ -24,5 +24,11 @@ namespace BuildAZoo
         {
             return "slop";
         }
+
+        // Pig Method
+        public string Tail()
+        {
+            return "I have a short curly tail";
+        }
     }
 }

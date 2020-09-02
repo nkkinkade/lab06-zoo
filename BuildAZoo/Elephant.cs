@@ -19,5 +19,11 @@ namespace BuildAZoo
         {
             return "trumpet";
         }
+
+        // Elephant method
+        public string Tail()
+        {
+            return "I have a short tail.";
+        }
     }
 }

@@ -24,5 +24,11 @@ namespace BuildAZoo
         {
             return "hay";
         }
+
+        // cow method
+        public string Tail()
+        {
+            return "I have a long tail";
+        }
     }
 }
