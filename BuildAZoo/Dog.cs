@@ -28,5 +28,11 @@ namespace BuildAZoo
         {
             return "dog food";
         }
+
+        // Dog method
+        public string Tail()
+        {
+            return "I can have a long or short tail or anything in between.";
+        }
     }
 }
